@@ -5,7 +5,12 @@
       "ProjectGuid": "40272325-76f4-407c-9500-5b045872ae3a",
       "DisplayName": "AJIBaitulKarim.Web",
       "ColorIndex": 0
+    },
+    "24548d5f-c696-4574-b17f-d55ec6b00064": {
+      "ProjectGuid": "24548d5f-c696-4574-b17f-d55ec6b00064",
+      "DisplayName": "AJIBaitulKarim.Web.Test",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
