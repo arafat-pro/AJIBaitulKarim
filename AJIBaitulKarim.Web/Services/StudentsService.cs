@@ -24,8 +24,9 @@ namespace AJIBaitulKarim.Web.Services
             {
                 await this.storageBroker.AddStudentAsync(student);
             }
-            catch (DbUpdateException)
+            catch (DbUpdateException dbUpdateException)
             {
+                this.loggingBroker.Error(dbUpdateException.Message);
                 throw new StudentRegistrationFailedException();
             }
         }
