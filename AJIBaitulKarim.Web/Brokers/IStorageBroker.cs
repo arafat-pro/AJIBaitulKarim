@@ -5,6 +5,6 @@ namespace AJIBaitulKarim.Web.Brokers
 {
     public interface IStorageBroker
     {
-        Task AddStudentAsync (Student student);
+        Task AddStudentAsync(Student student);
     }
 }

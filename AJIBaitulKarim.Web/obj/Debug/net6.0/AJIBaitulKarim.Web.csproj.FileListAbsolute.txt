@@ -9,7 +9,6 @@ F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\bin\Debug\ne
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\bin\Debug\net6.0\AJIBaitulKarim.Web.pdb
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\net6.0\AJIBaitulKarim.Web.csproj.AssemblyReference.cache
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\net6.0\AJIBaitulKarim.Web.GeneratedMSBuildEditorConfig.editorconfig
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\net6.0\AJIBaitulKarim.Web.AssemblyInfoInputs.cache
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\net6.0\AJIBaitulKarim.Web.AssemblyInfo.cs

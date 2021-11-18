@@ -104,3 +104,14 @@ F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\obj\Deb
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\obj\Debug\net6.0\ref\AJIBaitulKarim.Web.Test.dll
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\obj\Debug\net6.0\AJIBaitulKarim.Web.Test.pdb
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\obj\Debug\net6.0\AJIBaitulKarim.Web.Test.genruntimeconfig.cache
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\CoverletSourceRootsMapping
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\AJIBaitulKarim.Web.deps.json
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\AJIBaitulKarim.Web.runtimeconfig.json
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\appsettings.Development.json
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\appsettings.json
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\AJIBaitulKarim.Web.staticwebassets.runtime.json
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\AJIBaitulKarim.Web.exe
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\AJIBaitulKarim.Web.dll
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web.Test\bin\Debug\net6.0\AJIBaitulKarim.Web.pdb

@@ -13,9 +13,9 @@ namespace AJIBaitulKarim.Web.Services
             this.storageBroker = storageBroker;
         }
 
-        public Task RegisterStudentAsync(Student student)
+        public async Task RegisterStudentAsync(Student student)
         {
-            throw new System.NotImplementedException();
+            await this.storageBroker.AddStudentAsync(student);
         }
     }
 }
