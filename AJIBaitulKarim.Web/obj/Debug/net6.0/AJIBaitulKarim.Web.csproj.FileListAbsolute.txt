@@ -24,3 +24,4 @@ F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\ne
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\net6.0\ref\AJIBaitulKarim.Web.dll
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\net6.0\AJIBaitulKarim.Web.pdb
 F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\net6.0\AJIBaitulKarim.Web.genruntimeconfig.cache
+F:\OnlineSync\GitHub\SelfPractice\AJIBaitulKarim\AJIBaitulKarim.Web\obj\Debug\net6.0\AJIBaitulKarim.Web.csproj.AssemblyReference.cache

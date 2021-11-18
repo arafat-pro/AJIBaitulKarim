@@ -10,8 +10,15 @@ namespace AJIBaitulKarim.Web.Brokers
 
         public async Task AddStudentAsync(Student student)
         {
-            await this.Students.AddAsync(student);
-            await this.SaveChangesAsync();
+            try
+            {
+                await this.Students.AddAsync(student);
+                await this.SaveChangesAsync();
+            }
+            catch (DbUpdateException dbUpdateException)
+            {
+                throw dbUpdateException;
+            }
         }
     }
 }

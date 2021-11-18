@@ -48,15 +48,14 @@ namespace AJIBaitulKarim.Web.Test
                     .ThrowsAsync(dbUpdateException);
 
             //when
-            var studentsService=new StudentsService(this.storageBrokerMock.Object);
+            var studentsService = new StudentsService(this.storageBrokerMock.Object);
 
             Task registerStudentTask = studentsService.RegisterStudentAsync(student);
 
 
             //then
             await Assert.ThrowsAsync<StudentRegistrationFailedException>(
-                ()=> registerStudentTask);
-
+                () => registerStudentTask);
 
         }
 
@@ -67,5 +66,4 @@ namespace AJIBaitulKarim.Web.Test
                 innerException: new Exception());
         }
     }
-
 }
