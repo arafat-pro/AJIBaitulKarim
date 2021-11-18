@@ -1,5 +1,6 @@
 ﻿using AJIBaitulKarim.Web.Brokers;
 using AJIBaitulKarim.Web.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
 namespace AJIBaitulKarim.Web.Services
@@ -15,7 +16,13 @@ namespace AJIBaitulKarim.Web.Services
 
         public async Task RegisterStudentAsync(Student student)
         {
-            await this.storageBroker.AddStudentAsync(student);
+            try {
+            await this.storageBroker.AddStudentAsync(student);            
+            }
+            catch(DbUpdateException dbUpdateException)
+            {
+                throw dbUpdateException;
+            }
         }
     }
 }
