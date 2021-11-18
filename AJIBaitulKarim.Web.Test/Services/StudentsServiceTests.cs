@@ -14,9 +14,12 @@ namespace AJIBaitulKarim.Web.Test
     public class StudentsServiceTests
     {
         private Mock<IStorageBroker> storageBrokerMock;
+        private Mock<ILoggingBroker> loggingBrokerMock;
+
         public StudentsServiceTests()
         {
             this.storageBrokerMock = new Mock<IStorageBroker>();
+            this.loggingBrokerMock = new Mock<ILoggingBroker>();
         }
 
         [Fact]
@@ -25,15 +28,18 @@ namespace AJIBaitulKarim.Web.Test
             //given            
             Student student = new Filler<Student>().Create();
 
-            storageBrokerMock.Setup(broker => broker.AddStudentAsync(student));
+            this.storageBrokerMock.Setup(broker => broker.AddStudentAsync(student));
 
             //when
-            var studentsService = new StudentsService(storageBrokerMock.Object);
+            var studentsService = new StudentsService(
+                this.storageBrokerMock.Object,
+                this.loggingBrokerMock.Object
+                );
 
             await studentsService.RegisterStudentAsync(student);
 
             //then
-            storageBrokerMock.Verify(broker => broker.AddStudentAsync(student), Times.Once);
+            this.storageBrokerMock.Verify(broker => broker.AddStudentAsync(student), Times.Once);
         }
 
         [Fact]
@@ -48,7 +54,7 @@ namespace AJIBaitulKarim.Web.Test
                     .ThrowsAsync(dbUpdateException);
 
             //when
-            var studentsService = new StudentsService(this.storageBrokerMock.Object);
+            var studentsService = new StudentsService(this.storageBrokerMock.Object, this.loggingBrokerMock.Object);
 
             Task registerStudentTask = studentsService.RegisterStudentAsync(student);
 
@@ -56,6 +62,8 @@ namespace AJIBaitulKarim.Web.Test
             //then
             await Assert.ThrowsAsync<StudentRegistrationFailedException>(
                 () => registerStudentTask);
+
+            this.loggingBrokerMock.Verify(broker => broker.Error(dbUpdateException.Message), Times.Once);
 
         }
 

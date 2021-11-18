@@ -10,9 +10,12 @@ namespace AJIBaitulKarim.Web.Services
     {
 
         readonly IStorageBroker storageBroker;
-        public StudentsService(IStorageBroker storageBroker)
+        readonly ILoggingBroker loggingBroker;
+
+        public StudentsService(IStorageBroker storageBroker, ILoggingBroker loggingBroker)
         {
             this.storageBroker = storageBroker;
+            this.loggingBroker = loggingBroker;
         }
 
         public async Task RegisterStudentAsync(Student student)
